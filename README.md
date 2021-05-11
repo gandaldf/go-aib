@@ -1,6 +1,6 @@
 # Go-aib
 [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/gandaldf/go-aib/blob/master/LICENSE)
-[![Build Status](https://travis-ci.org/gandaldf/go-aib.svg?branch=main)](https://travis-ci.org/gandaldf/go-aib)
+[![Build Status](https://travis-ci.org/gandaldf/go-aib.svg?branch=master)](https://travis-ci.org/gandaldf/go-aib)
 [![Go Report Card](https://goreportcard.com/badge/github.com/gandaldf/go-aib)](https://goreportcard.com/report/github.com/gandaldf/go-aib)
 [![Go Reference](https://pkg.go.dev/badge/github.com/gandaldf/go-aib.svg)](https://pkg.go.dev/github.com/gandaldf/go-aib)
 [![Version](https://img.shields.io/github/tag/gandaldf/go-aib.svg?color=blue&label=version)](https://github.com/gandaldf/go-aib/releases)
@@ -11,7 +11,7 @@ Go-aib shoud be called before each build time.
 
 ## Installation:
 ```
-go get github.com/gandaldf/go-aib
+go get -u github.com/gandaldf/go-aib
 go install github.com/gandaldf/go-aib
 ```
 
