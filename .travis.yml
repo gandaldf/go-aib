@@ -1,0 +1,11 @@
+go_import_path: github.com/gandaldf/go-aib
+
+language: go
+
+go:
+  - 1.15.x
+  - tip
+
+os:
+  - linux
+  - osx
