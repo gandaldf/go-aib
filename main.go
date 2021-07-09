@@ -16,7 +16,7 @@ func main() {
 	fileName := flag.String("fn", "version.go", "Go source file name")
 	patchName := flag.String("pn", "versionPatch", "Patch var/const name")
 	timestampName := flag.String("tn", "versionTimestamp", "Timestamp var/const name")
-	timestampFormat := flag.String("tf", "060102150405", "Timestamp output format")
+	timestampFormat := flag.String("tf", "0601021504", "Timestamp output format")
 
 	flag.Parse()
 
@@ -53,7 +53,7 @@ func main() {
 			if foundTimestamp == true {
 				foundTimestamp = false
 
-				x.Value = "\"" + time.Now().Format(*timestampFormat) + "\""
+				x.Value = "\"" + time.Now().UTC().Format(*timestampFormat) + "\""
 			}
 		}
 
